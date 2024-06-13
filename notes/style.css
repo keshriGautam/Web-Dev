@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+
+}
+body{
+    height: 100vh;
+    width: 100vh;
+
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+/* hr.h{
+    border-top: 1px solid red;
+} */
+
+.button{
+    margin-top: 30px;
+    gap: 12px;
+}
+
+button{
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #f44336;
+    border-radius: 8px;
+}
+
+.text{
+    margin-top: 30px;
+    
+}
+
+input{
+    width: 350px;
+    height: 130px;
+    outline: none;
+    font-size: 24px;
+    background-color: white;
+    border: 1px solid #f44336;
+    text-align: left;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.output{
+    margin-top: 24px;
+    font-size: 24px;
+    text-align: left;
+}
